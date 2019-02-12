@@ -1,0 +1,14 @@
+[ {
+      title: 'Test Event 1',
+      description: 'test event 1 description',
+      image: 'testImage1',
+      place: 'test 1 place',
+      date: '01/02/2001'
+    },{
+      title: 'Test Event 2',
+      description: 'test event 2 description',
+      image: 'testImage2',
+      place: 'test 2 place',
+      date: '01/02/2002'
+    }
+]
