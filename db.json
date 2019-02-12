@@ -1,4 +1,5 @@
-[{
+{
+	"events":[{
 	"title": "Test Event 1",
 	"description": "test event 1 description",
 	"image": "testImage1",
@@ -11,3 +12,4 @@
 	"place": "test 2 place",
 	"date": "01/02/2002"
 }]
+}
