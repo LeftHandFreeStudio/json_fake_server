@@ -64,5 +64,25 @@
 		    {"id":"21","sum":"402.87","date":"02.02.1993"},
 		    {"id":"22","sum":"1412.87","date":"02.02.1993"}
 	],
-	"notifications":[true,true,false]
+	"notifications":[true,true,false],
+	"contactpersons":[
+		{
+		"id":"1",
+		"name":"Max Test",
+		"role":"Kochchef",
+		"phone":"1234567890",
+		"email":"test@example.com",
+		"others":{},
+		"entitlements":[true,true,true]
+		},
+		{
+		"id":"2",
+		"name":"Min Test",
+		"role":"Manager",
+		"phone":"0987654321",
+		"email":"test1@example.com",
+		"others":{},
+		"entitlements":[true,true,false]
+		}
+	]
 }
