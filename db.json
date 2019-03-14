@@ -67,21 +67,23 @@
 	"notifications":[true,true,false],
 	"contactpersons":[
 		{
-		"id":"1",
-		"name":"Max Test",
+		"customerId":"1",
+		"name":"Max",
+		"surname":"Test1",
 		"role":"Kochchef",
 		"phone":"1234567890",
-		"email":"test@example.com",
-		"others":{},
+		"email":"test1@example.com",
+		"address":"Berlin",
 		"entitlements":[true,true,true]
 		},
 		{
-		"id":"2",
-		"name":"Min Test",
+		"customerId":"2",
+		"name":"Min",
+		"surname":"Test2",
 		"role":"Manager",
 		"phone":"0987654321",
-		"email":"test1@example.com",
-		"others":{},
+		"email":"test2@example.com",
+		"address":"Paris",
 		"entitlements":[true,true,false]
 		}
 	]
