@@ -1,90 +1,217 @@
 {
-	"events":[{
-		"id":"1",
-	"title": "Test Event 1",
-	"summary": "Test Event 1",
-	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-	"image": "https://www.hamberger-cc.de/application/files/9314/7030/2613/header_3.jpg",
-	"place": "test 1 place",
-	"location": "Friedenstr. 16 81671 München",
-	"date": "01.02. 14:00",
-	"dtstart":"20190714T170000Z",
-	"dtend":"20190715T035959Z",
-	"type" : "normal"
-}, {
-		"id":"2",
-	"title": "Test Event 2",
-	"summary": "Test Event 2",
-	"description": "test event 2 description",
-	"image": "",
-	"place": "test 2 place",
-	"location": "Friedenstr. 16 81671 Chile",
-	"date": "02.01. 15:01",
-	"dtstart":"20190814T170000Z",
-	"dtend":"20190815T035959Z",
-	"type" : "special"
-}, {
-		"id":"3",
-	"title": "Test Event 3",
-	"summary": "Test Event 3",
-	"description": "test event 3 description",
-	"image": "",
-	"place": "test 3 place",
-	"location": "Friedenstr. 16 81671 Berlin",
-	"date": "03.03. 13:03",
-	"dtstart":"20190914T170000Z",
-	"dtend":"20190915T035959Z",
-	"type" : "different"
-}],
-	"invoices":[{"id":"0","sum":"1.01","date":"02.01.2019"},
-		    {"id":"111","sum":"10.99","date":"04.01.2019"},
-		    {"id":"112","sum":"220.99","date":"06.01.2019"},
-		    {"id":"113","sum":"330.99","date":"15.01.2019"},
-		    {"id":"114","sum":"4440.99","date":"28.01.2019"},
-		    {"id":"1","sum":"0.99","date":"03.02.2019"},
-		    {"id":"2","sum":"2500.00","date":"04.11.2019"},
-		    {"id":"3","sum":"10000.00","date":"05.12.2019"},
-		    {"id":"4","sum":"57.00","date":"06.10.2018"},
-		    {"id":"5","sum":"923.45","date":"07.11.2018"},
-		    {"id":"6","sum":"3521.21","date":"12.09.2018"},
-		    {"id":"7","sum":"1234.09","date":"02.01.2017"},
-		    {"id":"8","sum":"13421.00","date":"02.01.2016"},
-		    {"id":"9","sum":"4987.21","date":"02.01.2015"},
-		    {"id":"10","sum":"234.51","date":"02.01.2014"},
-		    {"id":"11","sum":"786.21","date":"02.01.2013"},
-		    {"id":"12","sum":"845.23","date":"02.01.2012"},
-		    {"id":"13","sum":"132.87","date":"02.01.2011"},
-		    {"id":"14","sum":"912.87","date":"02.01.2010"},
-		    {"id":"15","sum":"312.87","date":"02.01.2009"},
-		    {"id":"16","sum":"442.87","date":"02.01.2008"},
-		    {"id":"17","sum":"432.87","date":"02.02.2008"},
-		    {"id":"18","sum":"4562.87","date":"02.03.2008"},
-		    {"id":"19","sum":"482.87","date":"02.01.1993"},
-		    {"id":"20","sum":"492.87","date":"02.01.1993"},
-		    {"id":"21","sum":"402.87","date":"02.02.1993"},
-		    {"id":"22","sum":"1412.87","date":"02.02.1993"}
-	],
-	"notifications":[true,true,false],
-	"contactpersons":[
-		{
-		"customerId":"1",
-		"name":"Max",
-		"surname":"Test1",
-		"role":"Kochchef",
-		"phone":"1234567890",
-		"email":"test1@example.com",
-		"address":"Berlin",
-		"entitlements":[true,true,true]
+	"events": [{
+		"id": "1",
+		"title": "Test Event 1",
+		"summary": "Test Event 1",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"image": "https://www.hamberger-cc.de/application/files/9314/7030/2613/header_3.jpg",
+		"place": "test 1 place",
+		"location": "Friedenstr. 16 81671 München",
+		"date": "01.02. 14:00",
+		"dtstart": "20190714T170000Z",
+		"dtend": "20190715T035959Z",
+		"type": "normal"
+	}, {
+		"id": "2",
+		"title": "Test Event 2",
+		"summary": "Test Event 2",
+		"description": "test event 2 description",
+		"image": "",
+		"place": "test 2 place",
+		"location": "Friedenstr. 16 81671 Chile",
+		"date": "02.01. 15:01",
+		"dtstart": "20190814T170000Z",
+		"dtend": "20190815T035959Z",
+		"type": "special"
+	}, {
+		"id": "3",
+		"title": "Test Event 3",
+		"summary": "Test Event 3",
+		"description": "test event 3 description",
+		"image": "",
+		"place": "test 3 place",
+		"location": "Friedenstr. 16 81671 Berlin",
+		"date": "03.03. 13:03",
+		"dtstart": "20190914T170000Z",
+		"dtend": "20190915T035959Z",
+		"type": "different"
+	}],
+	"invoices": [{
+			"id": "0",
+			"sum": "1.01",
+			"date": "02.01.2019"
 		},
 		{
-		"customerId":"2",
-		"name":"Min",
-		"surname":"Test2",
-		"role":"Manager",
-		"phone":"0987654321",
-		"email":"test2@example.com",
-		"address":"Paris",
-		"entitlements":[true,true,false]
+			"id": "111",
+			"sum": "10.99",
+			"date": "04.01.2019"
+		},
+		{
+			"id": "112",
+			"sum": "220.99",
+			"date": "06.01.2019"
+		},
+		{
+			"id": "113",
+			"sum": "330.99",
+			"date": "15.01.2019"
+		},
+		{
+			"id": "114",
+			"sum": "4440.99",
+			"date": "28.01.2019"
+		},
+		{
+			"id": "1",
+			"sum": "0.99",
+			"date": "03.02.2019"
+		},
+		{
+			"id": "2",
+			"sum": "2500.00",
+			"date": "04.11.2019"
+		},
+		{
+			"id": "3",
+			"sum": "10000.00",
+			"date": "05.12.2019"
+		},
+		{
+			"id": "4",
+			"sum": "57.00",
+			"date": "06.10.2018"
+		},
+		{
+			"id": "5",
+			"sum": "923.45",
+			"date": "07.11.2018"
+		},
+		{
+			"id": "6",
+			"sum": "3521.21",
+			"date": "12.09.2018"
+		},
+		{
+			"id": "7",
+			"sum": "1234.09",
+			"date": "02.01.2017"
+		},
+		{
+			"id": "8",
+			"sum": "13421.00",
+			"date": "02.01.2016"
+		},
+		{
+			"id": "9",
+			"sum": "4987.21",
+			"date": "02.01.2015"
+		},
+		{
+			"id": "10",
+			"sum": "234.51",
+			"date": "02.01.2014"
+		},
+		{
+			"id": "11",
+			"sum": "786.21",
+			"date": "02.01.2013"
+		},
+		{
+			"id": "12",
+			"sum": "845.23",
+			"date": "02.01.2012"
+		},
+		{
+			"id": "13",
+			"sum": "132.87",
+			"date": "02.01.2011"
+		},
+		{
+			"id": "14",
+			"sum": "912.87",
+			"date": "02.01.2010"
+		},
+		{
+			"id": "15",
+			"sum": "312.87",
+			"date": "02.01.2009"
+		},
+		{
+			"id": "16",
+			"sum": "442.87",
+			"date": "02.01.2008"
+		},
+		{
+			"id": "17",
+			"sum": "432.87",
+			"date": "02.02.2008"
+		},
+		{
+			"id": "18",
+			"sum": "4562.87",
+			"date": "02.03.2008"
+		},
+		{
+			"id": "19",
+			"sum": "482.87",
+			"date": "02.01.1993"
+		},
+		{
+			"id": "20",
+			"sum": "492.87",
+			"date": "02.01.1993"
+		},
+		{
+			"id": "21",
+			"sum": "402.87",
+			"date": "02.02.1993"
+		},
+		{
+			"id": "22",
+			"sum": "1412.87",
+			"date": "02.02.1993"
+		}
+	],
+	"notifications": {
+		"prospects": true,
+		"events": true,
+		"invoices": false
+	},
+	"contactpersons": [{
+			"customerId": "1",
+			"name": "Max",
+			"surname": "Test1",
+			"role": "Kochchef",
+			"phone": "1234567890",
+			"email": "test1@example.com",
+			"address": "Berlin",
+			"entitlements": {
+				"allowedToShop": true,
+				"allowedViewInvoices": true,
+				"allowedExportInvoices": true,
+				"allowedAccessForms": true,
+				"notifiedOnNewInvoice": true,
+				"digitalAdsWanted": true,
+				"printedAdsWanted": true
+			}
+		},
+		{
+			"customerId": "2",
+			"name": "Min",
+			"surname": "Test2",
+			"role": "Manager",
+			"phone": "0987654321",
+			"email": "test2@example.com",
+			"address": "Paris",
+			"entitlements": {
+				"allowedToShop": true,
+				"allowedViewInvoices": false,
+				"allowedExportInvoices": true,
+				"allowedAccessForms": false,
+				"notifiedOnNewInvoice": true,
+				"digitalAdsWanted": false,
+				"printedAdsWanted": true
+			}
 		}
 	]
 }
