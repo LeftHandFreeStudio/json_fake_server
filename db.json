@@ -179,6 +179,7 @@
 	},
 	"contactpersons": [{
 			"customerId": "1",
+			"username":"123-456-789",
 			"name": "Max",
 			"surname": "Test1",
 			"role": "Kochchef",
@@ -197,6 +198,7 @@
 		},
 		{
 			"customerId": "2",
+			"username":"987-654-321",
 			"name": "Min",
 			"surname": "Test2",
 			"role": "Manager",
