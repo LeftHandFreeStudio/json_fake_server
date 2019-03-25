@@ -173,9 +173,9 @@
 		}
 	],
 	"notifications": {
-		"prospects": true,
-		"events": true,
-		"invoices": false
+	    "invoicesSetting": true,
+	    "eventsSetting": false,
+	    "prospectsSetting": true
 	},
 	"contactpersons": [{
 			"customerId": "1",
