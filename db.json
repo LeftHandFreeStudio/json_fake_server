@@ -2,6 +2,10 @@
 
 
 {
+	"jira":{
+	"juniors":["Muhammet", "Bradley", "Jimmy", "John"],
+		"mentors":["Maciej", "Tim", "Benjamin"]
+	},
 	"events": [{
 		"id": "1",
 		"title": "Test Event 1",
